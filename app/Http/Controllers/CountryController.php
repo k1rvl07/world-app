@@ -7,7 +7,7 @@ use App\Models\Country;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
-class CountryController extends Controller
+class CountryController
 {
     public function index(Request $request): View
     {
